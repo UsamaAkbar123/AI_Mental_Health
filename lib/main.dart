@@ -14,6 +14,7 @@ void main() async {
   await LocalRemainderNotification.init();
   await databaseHelper.createTheInstanceOfDatabase();
 
+  /// first commit
   sharedPreferencesManager.createInstance();
 
   //  handle in terminated state
